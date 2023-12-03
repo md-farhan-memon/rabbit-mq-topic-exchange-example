@@ -82,7 +82,7 @@ public class CloudReceiverConfig {
   }
 
   public String routingKey() {
-    return "r.#";
+    return "r.*." + stream();
   }
 
   @Bean

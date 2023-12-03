@@ -15,8 +15,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 import org.springframework.util.MimeTypeUtils;
 
+import com.example.messagingrabbitmq.profiles.Publisher;
 import com.example.messagingrabbitmq.utilities.DummyRestaurants;
-import com.example.messagingrabbitmq.utilities.Publisher;
 
 import lombok.extern.slf4j.Slf4j;
 

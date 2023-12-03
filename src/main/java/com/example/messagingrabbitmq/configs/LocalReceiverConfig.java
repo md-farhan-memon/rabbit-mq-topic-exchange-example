@@ -96,7 +96,7 @@ public class LocalReceiverConfig {
 
   @Bean
   public String routingKey() {
-    return "r.#";
+    return "r.*." + stream();
   }
 
   @Bean
