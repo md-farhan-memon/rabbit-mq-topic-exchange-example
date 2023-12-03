@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.messagingrabbitmq.configs.PublisherConfig;
+import com.example.messagingrabbitmq.profiles.Publisher;
 import com.example.messagingrabbitmq.utilities.MessageBody;
 import com.example.messagingrabbitmq.utilities.MessageType;
-import com.example.messagingrabbitmq.utilities.Publisher;
 import com.fasterxml.jackson.databind.JsonNode;
 
 import jakarta.validation.Valid;

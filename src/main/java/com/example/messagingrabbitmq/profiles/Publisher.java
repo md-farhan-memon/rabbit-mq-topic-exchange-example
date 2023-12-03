@@ -1,6 +1,8 @@
-package com.example.messagingrabbitmq.utilities;
+package com.example.messagingrabbitmq.profiles;
 
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
+
+import com.example.messagingrabbitmq.utilities.MessageBody;
 
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
